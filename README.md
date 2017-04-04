@@ -13,7 +13,7 @@ Created and maintained by [@billimarie](https://www.github.com/billimarie).
 
 We welcome your contributions! Anyone can volunteer and partcipate. Please feel free to fork the repository and create your feature branch. Pull requests are lovely surprises.
 
-For more information on how to contribute, please view our [Contribution Guidelines](/contributing.md) (`CONTRIBUTING.md`).
+For more information on how to contribute, please view our [Contribution Guidelines](/.github/CONTRIBUTING.md).
 
 You can also find more Prisoners' Rights open source projects and volunteer opportunities on our website: [CLASPjustice.com](https://www.CLASPjustice.com/get-involved).
 
