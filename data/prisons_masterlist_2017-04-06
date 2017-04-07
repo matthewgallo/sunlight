@@ -1,0 +1,123 @@
+{
+	"prisons":
+		{
+			"prison":
+				[
+					{
+						"id": "0001",
+						"name": "Adult Diagnostic and Treatment Center",
+						"location": "Woodbridge",
+						"state": "NJ",
+						"county": "Middlesex",
+						"agency": "NJDOC",
+						"info":
+							{
+								"capacity": 700,
+								"type": ["adult", "male", "sex-offenders"],
+								"status": "open",
+								"year": "1976"
+							},
+						"contact":
+							{
+								"address":
+									{
+										"po-box": "P.O. Box 190",
+										"street": "8 Production Way",
+										"city": "Avenel",
+										"state": "New Jersey",
+										"zipcode": "07001"
+									},
+								"telephone": "732-574-2250"
+							},
+						"wiki": "https://en.wikipedia.org/wiki/Adult_Diagnostic_and_Treatment_Center"
+					},
+					{
+						"id": "0002",
+						"name": "A. C. Wagner Youth Correctional Facility",
+						"location": "Chesterfield",
+						"state": "NJ",
+						"agency": "NJDOC",
+						"info":
+							{
+								"capacity": 1235,
+								"type": ["youth", "mixed", "treatment"],
+								"status": "open",
+								"year": "1934"
+							},
+						"contact":
+							{
+								"address":
+									{
+										"po-box": "P.O. Box 500",
+										"street": "Ward Avenue",
+										"city": "Bordentown",
+										"state": "New Jersey",
+										"zipcode": "08505"
+									},
+								"telephone": "609-298-0500"
+							},
+						"wikipedia-url": "https://en.wikipedia.org/wiki/Albert_C._Wagner_Youth_Correctional_Facility"
+					},
+					{
+						"id": "0003",
+						"name": "Bayside State Prison"
+					},
+					{
+						"id": "0004",
+						"name": "Central Reception and Assignment Facility"
+					},
+					{
+						"id": "0005",
+						"name": "East Jersey State Prison"
+					},
+					{
+						"id": "0006",
+						"name": "Edna Mahan Correctional Facility for Women"
+					},
+					{
+						"id": "0007",
+						"name": "Garden State Youth Correctional Facility"
+					},
+					{
+						"id": "0008",
+						"name": "Mid-State Correctional Facility"
+					},
+					{
+						"id": "0009",
+						"name": "Mountainview Youth Correctional Facility"
+					},
+					{
+						"id": "0010",
+						"name": "New Jersey State Prison"
+					},
+					{
+						"id": "0011",
+						"name": "Northern State Prison"
+					},
+					{
+						"id": "0012",
+						"name": "Southern State Correctional Facility"
+					},
+					{
+						"id": "0013",
+						"name": "South Woods State Prison"
+					},
+					{
+						"id": "0014",
+						"name": "Burlington County Prison",
+						"info":
+							{
+								"status": "closed"
+							}
+					}
+					{
+						"id": "0015",
+						"name": "Riverfront State Prison",
+						"info":
+							{
+								"status": "closed"
+							}
+					}
+				]
+		}
+}
