@@ -1,123 +1,331 @@
 {
-	"prisons":
-		{
-			"prison":
-				[
-					{
-						"id": "0001",
-						"name": "Adult Diagnostic and Treatment Center",
-						"location": "Woodbridge",
-						"state": "NJ",
-						"county": "Middlesex",
-						"agency": "NJDOC",
-						"info":
-							{
-								"capacity": 700,
-								"type": ["adult", "male", "sex-offenders"],
-								"status": "open",
-								"year": "1976"
-							},
-						"contact":
-							{
-								"address":
-									{
-										"po-box": "P.O. Box 190",
-										"street": "8 Production Way",
-										"city": "Avenel",
-										"state": "New Jersey",
-										"zipcode": "07001"
-									},
-								"telephone": "732-574-2250"
-							},
-						"wiki": "https://en.wikipedia.org/wiki/Adult_Diagnostic_and_Treatment_Center"
-					},
-					{
-						"id": "0002",
-						"name": "A. C. Wagner Youth Correctional Facility",
-						"location": "Chesterfield",
-						"state": "NJ",
-						"agency": "NJDOC",
-						"info":
-							{
-								"capacity": 1235,
-								"type": ["youth", "mixed", "treatment"],
-								"status": "open",
-								"year": "1934"
-							},
-						"contact":
-							{
-								"address":
-									{
-										"po-box": "P.O. Box 500",
-										"street": "Ward Avenue",
-										"city": "Bordentown",
-										"state": "New Jersey",
-										"zipcode": "08505"
-									},
-								"telephone": "609-298-0500"
-							},
-						"wikipedia-url": "https://en.wikipedia.org/wiki/Albert_C._Wagner_Youth_Correctional_Facility"
-					},
-					{
-						"id": "0003",
-						"name": "Bayside State Prison"
-					},
-					{
-						"id": "0004",
-						"name": "Central Reception and Assignment Facility"
-					},
-					{
-						"id": "0005",
-						"name": "East Jersey State Prison"
-					},
-					{
-						"id": "0006",
-						"name": "Edna Mahan Correctional Facility for Women"
-					},
-					{
-						"id": "0007",
-						"name": "Garden State Youth Correctional Facility"
-					},
-					{
-						"id": "0008",
-						"name": "Mid-State Correctional Facility"
-					},
-					{
-						"id": "0009",
-						"name": "Mountainview Youth Correctional Facility"
-					},
-					{
-						"id": "0010",
-						"name": "New Jersey State Prison"
-					},
-					{
-						"id": "0011",
-						"name": "Northern State Prison"
-					},
-					{
-						"id": "0012",
-						"name": "Southern State Correctional Facility"
-					},
-					{
-						"id": "0013",
-						"name": "South Woods State Prison"
-					},
-					{
-						"id": "0014",
-						"name": "Burlington County Prison",
-						"info":
-							{
-								"status": "closed"
-							}
-					}
-					{
-						"id": "0015",
-						"name": "Riverfront State Prison",
-						"info":
-							{
-								"status": "closed"
-							}
-					}
-				]
-		}
+  "prisons": {
+    "prison": [{
+        "id": "0001",
+        "name": "Adult Diagnostic and Treatment Center",
+        "location": "Woodbridge",
+        "state": "NJ",
+        "county": "Middlesex",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 700,
+          "type": ["adult", "male", "sex-offenders"],
+          "status": "open",
+          "year": "1976"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box 190",
+            "street": "8 Production Way",
+            "city": "Avenel",
+            "state": "New Jersey",
+            "zipcode": "07001"
+          },
+          "telephone": "732-574-2250"
+        },
+        "wiki": "https://en.wikipedia.org/wiki/Adult_Diagnostic_and_Treatment_Center"
+      },
+      {
+        "id": "0002",
+        "name": "A. C. Wagner Youth Correctional Facility",
+        "location": "Chesterfield",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 1235,
+          "type": ["youth", "mixed", "treatment"],
+          "status": "open",
+          "year": "1934"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box 500",
+            "street": "Ward Avenue",
+            "city": "Bordentown",
+            "state": "New Jersey",
+            "zipcode": "08505"
+          },
+          "telephone": "609-298-0500"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/Albert_C._Wagner_Youth_Correctional_Facility"
+      },
+      {
+        "id": "0003",
+        "name": "Bayside State Prison",
+        "location": "Leesburg",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 2206,
+          "type": ["adult", "male"],
+          "status": "open",
+          "year": "1970"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box F-1",
+            "street": "4293 Rt. 47",
+            "city": "Lessburg",
+            "state": "New Jersey",
+            "zipcode": "08327"
+          },
+          "telephone": "856-785-0040"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/Bayside_State_Prison"
+      },
+      {
+        "id": "0004",
+        "name": "Central Reception and Assignment Facility",
+        "location": "Trenton",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 562,
+          "type": ["adult"],
+          "status": "open",
+          "year": "1997"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box 7450",
+            "street": "Stuyvesant Avenue",
+            "city": "Trenton",
+            "state": "New Jersey",
+            "zipcode": "08628"
+          },
+          "telephone": "609-984-6000"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/Central_Reception_and_Assignment_Facility"
+      },
+      {
+        "id": "0005",
+        "name": "East Jersey State Prison",
+        "location": "Avenel",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 1227,
+          "type": ["adult", "male"],
+          "status": "open",
+          "year": "1901"
+        },
+        "contact": {
+          "address": {
+            "po-box": "",
+            "street": "1100 Woodbridge Road",
+            "city": "Rahway",
+            "state": "New Jersey",
+            "zipcode": "07065"
+          },
+          "telephone": "732-499-5010"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/East_Jersey_State_Prison"
+      },
+      {
+        "id": "0006",
+        "name": "Edna Mahan Correctional Facility for Women",
+        "location": "Clinton",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 709,
+          "type": ["adult", "female"],
+          "status": "open",
+          "year": "1913"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box 4004",
+            "street": "30 County Route 513",
+            "city": "Clinton",
+            "state": "New Jersey",
+            "zipcode": "08809"
+          },
+          "telephone": "908-735-7111"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/Edna_Mahan_Correctional_Facility_for_Women"
+      },
+      {
+        "id": "0007",
+        "name": "Garden State Youth Correctional Facility",
+        "location": "Crosswicks",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 1511,
+          "type": ["juvenile"],
+          "status": "open",
+          "year": "1968"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box 11401",
+            "street": "55 Hogback Rd",
+            "city": "Crosswicks",
+            "state": "New Jersey",
+            "zipcode": "08515"
+          },
+          "telephone": "609-298-6300"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/Garden_State_Youth_Correctional_Facility"
+      },
+      {
+        "id": "0008",
+        "name": "Mid-State Correctional Facility",
+        "location": "Fort Dix",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": "696",
+          "type": ["juvenile"],
+          "status": "Scheduled to reopen",
+          "year": "1982"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box 866",
+            "street": "Dirt Road",
+            "city": "Wrightstown",
+            "state": "New Jersey",
+            "zipcode": "08562"
+          },
+          "telephone": "609-723-4221"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/Mid-State_Correctional_Facility_(New_Jersey)"
+      },
+      {
+        "id": "0009",
+        "name": "Mountainview Youth Correctional Facility",
+        "location": "Annandale",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 808,
+          "type": ["juvenile", "male"],
+          "status": "open",
+          "year": "1929"
+        },
+        "contact": {
+          "address": {
+            "po-box": "",
+            "street": "31 Petticoat Lane",
+            "city": "Annandale",
+            "state": "New Jersey",
+            "zipcode": "08801"
+          },
+          "telephone": "908-638-6191"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/Mountainview_Youth_Correctional_Facility"
+      },
+      {
+        "id": "0010",
+        "name": "New Jersey State Prison",
+        "location": "Trenton",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 1819,
+          "type": ["adult", "male"],
+          "status": "open",
+          "year": "1836"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box 861",
+            "street": "Third and Federal Streets",
+            "city": "Trenton",
+            "state": "New Jersey",
+            "zipcode": "08625"
+          },
+          "telephone": "609-292-9700"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/New_Jersey_State_Prison"
+      },
+      {
+        "id": "0011",
+        "name": "Northern State Prison",
+        "location": "Newark",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 2615,
+          "type": ["adult", "male"],
+          "status": "open",
+          "year": "1987"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box 2300",
+            "street": "168 Frontage Road",
+            "city": "Newark",
+            "state": "New Jersey",
+            "zipcode": "07114"
+          },
+          "telephone": "973-465-0068"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/Northern_State_Prison"
+      },
+      {
+        "id": "0012",
+        "name": "Southern State Correctional Facility",
+        "location": "Delmont",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 2000,
+          "type": ["adult", "male"],
+          "status": "open",
+          "year": "1983"
+        },
+        "contact": {
+          "address": {
+            "po-box": "P.O. Box 150",
+            "street": "4295 Route 47",
+            "city": "Delmont",
+            "state": "New Jersey",
+            "zipcode": "08314"
+          },
+          "telephone": "856-785-1300"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/Southern_State_Correctional_Facility_(New_Jersey)"
+      },
+      {
+        "id": "0013",
+        "name": "South Woods State Prison",
+        "location": "Bridgeton",
+        "state": "NJ",
+        "agency": "NJDOC",
+        "info": {
+          "capacity": 3327,
+          "type": ["adult", "male"],
+          "status": "open",
+          "year": "1997"
+        },
+        "contact": {
+          "address": {
+            "po-box": "",
+            "street": "215 South Burlington Rd.",
+            "city": "Bridgeton",
+            "state": "New Jersey",
+            "zipcode": "08302"
+          },
+          "telephone": "856-459-7000"
+        },
+        "wikipedia-url": "https://en.wikipedia.org/wiki/South_Woods_State_Prison"
+      },
+      {
+        "id": "0014",
+        "name": "Burlington County Prison",
+        "info": {
+          "status": "closed"
+        }
+      } {
+        "id": "0015",
+        "name": "Riverfront State Prison",
+        "info": {
+          "status": "closed"
+        }
+      }
+    ]
+  }
 }
